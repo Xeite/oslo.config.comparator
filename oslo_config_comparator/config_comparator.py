@@ -18,6 +18,7 @@ def check(file1, file2, verbose):
     """
     Check difference between two config files. FILE1, FILE2.
     
+    \b
     Args:
         file1 (str): name of file which comparison based on.
         file2 (str): name of file which is compared to.
@@ -38,6 +39,7 @@ def upgrade(file1, file2, output):
     """
     Upgrade config by comparing two config files. FILE1, FILE2.
     
+    \b
     Args:
         file1 (str): name of file which comparison based on.
         file2 (str): name of file which is compared to.
